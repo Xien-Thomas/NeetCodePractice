@@ -1,0 +1,9 @@
+What to learn from this excersie:
+
+1) default dictonary makes a default space in a dictionary
+2) approach the problem by rows and cols.
+    check each row if it is already in your set
+    if it is in your set return false
+3) approach the squares the same way as you approach rows and cols.
+    each key for a square is r/3 and c/3. 1/3 gives each square a unique coordinate.
+    1/3 also normalize each data point to a certain square

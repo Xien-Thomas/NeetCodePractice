@@ -1,0 +1,44 @@
+Given an array of nums and a integer k
+return the k most frequent elements
+you may return in any order
+
+
+Example 1:
+
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
+
+Example 2:
+
+Input: nums = [1], k = 1
+Output: [1]
+
+Constraints:
+
+1 <= nums.length <= 105
+k is in the range [1, the number of unique elements in the array].
+It is guaranteed that the answer is unique.
+
+
+////thoughts
+input nums, k
+output is list k
+
+sort(nums) nlgn
+
+every iteration of k
+grab the highest number while mapping which number is used already
+
+111
+22
+nlgn + m*n =m*n
+
+//do better
+
+n
+
+hashmap nums +=1
+
+compare length in hash map
+max == 5
+max 3
